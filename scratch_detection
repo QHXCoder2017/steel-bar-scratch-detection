@@ -65,7 +65,7 @@ void colsNormalization(Mat src, Mat& out)  // 去掉钢条的边
 
 int main()
 {
-	Mat input_img = imread("G:\\detect_img\\5.bmp");  // size(1440,1920);
+	Mat input_img = imread("G:\\detect_img\\test.bmp");  // size(1440,1920);
 	//namedWindow("src", WINDOW_NORMAL);
 	//imshow("src", input_img);
 	//int width = input_img.cols;
